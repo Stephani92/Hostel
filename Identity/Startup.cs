@@ -50,7 +50,7 @@ namespace Identity
             services.AddDbContext<MyDBContext>(
                 opt => opt.UseSqlServer(Configuration.GetConnectionString("DefaultConn"))
             );
-            services.AddIdentity<User, Role>(op => { })
+            services.AddIdentity<User, Role>(op => {})
                     .AddEntityFrameworkStores<MyDBContext>()
                     .AddRoles<Role>();
             IdentityBuilder builder = services.AddIdentityCore<User>(
@@ -72,17 +72,7 @@ namespace Identity
 
             
            // Configurando o client de acesso à API da NASA
-            services.AddHttpClient("NASA_API", client =>
-            {
-                client.DefaultRequestHeaders.Accept.Clear();
-                
-
-                string baseURL =
-                    Configuration.GetSection("NASA_OpenAPIs:BaseURL").Value;
-                
-                client.BaseAddress = new Uri(
-                    baseURL );
-            });
+           
 
             services.AddAuthentication(x =>{
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

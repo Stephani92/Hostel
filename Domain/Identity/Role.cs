@@ -6,6 +6,6 @@ namespace Identity.Reposi
 {
     public class Role : IdentityRole
     {
-        
+       
     }
 }

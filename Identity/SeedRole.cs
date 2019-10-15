@@ -24,7 +24,7 @@ namespace Identity
                 var roleExist = await roleManager.RoleExistsAsync(roleName);
                 if (!roleExist)
                 {
-                    roleResult = await roleManager.CreateAsync(new Role(){
+                   roleResult = await roleManager.CreateAsync(new Role(){
                         Name = roleName
                     });
                 }
