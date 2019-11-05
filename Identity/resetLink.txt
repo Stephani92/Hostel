@@ -1,0 +1,1 @@
+https://localhost:5001/api/User/ResetPassword?token=CfDJ8Pw%2BAGUvvMhAksmQcElQoZxv%2BD%2FHbWS%2FqDC09HQnMTtaYRtrLQR4YO6qi%2F8nHWkirkKCupHBoe5nO8xk3GQBle74oNYMkCQWWOY2uzfRByyEu9wU5D%2ByZOl8F7YR2X6gRwEx%2F2e%2BTuQfEGdOyhtH8CTmF08HKFk7I%2BmY8bUQAPmv4geN%2BiNMOUkDXxhl2oAVnRUvQAtRhGdVceBZ4ugG%2F0zyFJJ634G8l9BklNx3dtJi&Email=ste2@gmail.com
